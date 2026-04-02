@@ -1,5 +1,6 @@
 @charset "UTF8";
 @media screen and (min-width: 891px) {
+    
     /* cabeçario */
     header {
         height: 800px;
@@ -7,11 +8,13 @@
         grid-template: 50px 1fr / 2fr 1fr 2fr;
         justify-items: end;
     }
+
     header > img.logo {
         max-width: 380px;
         grid-area: 1 / 2 / 2 / 3 ;
         margin-left: 30px;
     }
+
     header  > h1 {
         font: normal clamp(4em, 5.5vw, 6em) 'Montserrat', arial, helvetica, sans-serif;
         align-self: center;
@@ -19,10 +22,11 @@
         letter-spacing: 3px;
         text-shadow: 0.5px 0.5px 5px rgba(255, 255, 255, 0.322);
     }
+
     header > video {
         filter: brightness(0.1);
     }
-    
+
     nav {
         display: flex;
         justify-self: start;
@@ -30,11 +34,13 @@
         justify-content: start;
         grid-area: 1 / 1 / 2 / 2 ; 
     }
+
     a.select {
         font-size: 1em;
         padding-bottom: 4px;
         margin-left: 45px;
     }
+
     a.select {
         position: relative;
         font: normal clamp(0.6em, 2.5vw, 1em) 'Montserrat', arial, helvetica, sans-serif;
@@ -47,6 +53,7 @@
         align-items: center;
         justify-content: start;
     }
+
     /* animação de borda */
     a.select::after {
         content: "";
@@ -61,6 +68,7 @@
         transform-origin: left center;
         transition: opacity 0.5s, transform 0.5s ease;
     }
+
     a:hover::after {
         transform: scaleX(1);
         opacity: 1;
@@ -86,13 +94,16 @@
         background: linear-gradient(to top, rgb(24, 24, 24), rgb(12, 12, 12));
         border-bottom: 4px solid rgba(135, 60, 255, 0.555);
     }
+
     menu > a.select {
         display: none;
     }
+
     div.menu {
         display: flex;
         justify-self: start;
     }
+
     div.menu > a {
         font-size: clamp(0.6em, 2.5vw, 1.1em);
         margin-top: 8px;
@@ -133,11 +144,12 @@
     .aviso {
         max-width: 1000px;
         text-align: center;
-
     }
+
     .aviso > h2 {
         font-size: 2.2em;
     }
+
     .aviso > p {
         font-size: 1.2em;
     }
@@ -156,6 +168,7 @@
         padding: 50px;
         box-shadow: 0 0 1.5px 0.1px var(--color-shadow);
     }
+
     .projetos > div {
         width: 100%;
         margin: 0;
@@ -173,6 +186,7 @@
         padding: 0;
         margin: 0;
     }
+
     div.introdução {
         justify-self: center;
         width: 85%;
@@ -180,6 +194,7 @@
         align-self: center;
         grid-area: 1 / 1 / 1 / 2;
     }
+
     section#sobre > img {
         width: 104%;
         margin-top: 80px;
@@ -190,15 +205,18 @@
         justify-self: start;
         transform: translate(-40px, 0);
     }
+
     .introdução > p {
         width: 80%;
         font-size: clamp(0.9em, 1.2vw, 1.2em);
         line-height: 22px;
         margin-bottom: 40px;
     }
+    
     img.foto {
         display: none;
     }
+    
     div.introdução > h2 {
         font: bold clamp( 3em, 4.3vw, 6em) 'Montserrat', arial, helvetica, sans-serif;
         margin: 20px 0px 5px 0px;
