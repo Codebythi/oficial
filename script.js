@@ -42,3 +42,7 @@ window.addEventListener('scroll', function() {
     menu.classList.remove('fixo');
   }
 });
+
+const user = "codebythi";
+const domain = "gmail.com";
+document.getElementById("email-link").href = `mailto:${user}@${domain}`;

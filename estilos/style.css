@@ -340,23 +340,24 @@ div.contatos {
     margin: 20px;
 }
 
-div.contatos > p {
+div.contatos > p, div.contatos > p > a#email-link {
     color: rgba(255, 255, 255, 0.336);
     font: 550 0.9em "Raleway", arial, helvetica, sans-serif;
     line-height: 20px;
+    text-decoration: none;
 }
 
 footer > div.contatos > p.criador {
     color: rgba(255, 255, 255, 0.788);
 }
 
-.contatos > p > a {
+.contatos > p > a.creator {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.918);
     font-family: "raleway";
 }
 
-.contatos > p > a:hover {
+.contatos > p > a:hover, div.contatos > p > a#email-link:hover {
     text-decoration: underline;
     color: rgb(83, 0, 131);
 }
