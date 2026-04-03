@@ -15,7 +15,7 @@ navLinks.forEach(link => {
     let extraOffset;
 
     if (isMobile) {
-      extraOffset = href === '#sobre' ? 70 : 60; //inicio da rolagem mobile
+      extraOffset = href === '#sobre' ? 70 : 110; //inicio da rolagem mobile
     } else {
       extraOffset = href === '#sobre' ? 60 : 20; //inicio da rolagem telas maiores
     }
@@ -35,8 +35,9 @@ const header = document.querySelector('header');
 /* aparecer ticker header após passar pelo header */
 window.addEventListener('scroll', function() {
   const headerBottom = header.offsetHeight;
+  const offset = 500;
 
-  if (window.scrollY > headerBottom) {
+  if (window.scrollY > headerBottom - offset) {
     menu.classList.add('fixo');
   } else {
     menu.classList.remove('fixo');
