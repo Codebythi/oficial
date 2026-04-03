@@ -215,7 +215,7 @@ section.projetos {
 
 .projetos > div:hover {
     border-left-width: 10px;
-    border-color: rgb(59, 1, 126);
+    border-color: rgb(47, 1, 100);
     transition: border-left 0.3s, border-color 0.3s;
     padding-left: 10px;
 }
@@ -278,7 +278,7 @@ img.foto {
 
 .introdução  h2 {
     font: normal 2em  'Montserrat', arial, helvetica, sans-serif;
-    color: rgb(102, 36, 209);
+    color: rgb(70, 19, 151);
     margin-bottom: 3px;
 }
 
