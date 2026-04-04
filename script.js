@@ -35,7 +35,7 @@ const header = document.querySelector('header');
 /* aparecer ticker header após passar pelo header */
 window.addEventListener('scroll', function() {
   const headerBottom = header.offsetHeight;
-  const offset = 500;
+  const offset = 80;
 
   if (window.scrollY > headerBottom - offset) {
     menu.classList.add('fixo');
