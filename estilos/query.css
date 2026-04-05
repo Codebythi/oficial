@@ -215,6 +215,7 @@
         font-size: clamp(0.9em, 1.3vw, 1.3em);
         line-height: 22px;
         margin-bottom: 40px;
+        color: black;
     }
     
     img.foto {
