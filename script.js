@@ -38,7 +38,7 @@ window.addEventListener('scroll', function() {
   
   // Offset diferente para PC e mobile
   const isDesktop = window.matchMedia('(min-width: 1024px)').matches;
-  const offset = isDesktop ? 350 : 80;
+  const offset = isDesktop ? 310 : 80;
 
   if (window.scrollY > headerBottom - offset) {
     menu.classList.add('fixo');
