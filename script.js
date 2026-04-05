@@ -17,7 +17,7 @@ navLinks.forEach(link => {
     if (isMobile) {
       extraOffset = href === '#sobre' ? 70 : 110; //inicio da rolagem mobile
     } else {
-      extraOffset = href === '#sobre' ? 70 : 80; //inicio da rolagem telas maiores
+      extraOffset = href === '#sobre' ? 60 : 80; //inicio da rolagem telas maiores
     }
 
     const targetPosition = target.getBoundingClientRect().top + window.scrollY - menuHeight - extraOffset;
