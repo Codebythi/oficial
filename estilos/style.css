@@ -285,14 +285,14 @@ img.foto {
 }
 
 .introdução  h2 {
-    font: normal 2em  'Montserrat', arial, helvetica, sans-serif;
+    font: normal 2.1em  'Montserrat', arial, helvetica, sans-serif;
     color: rgb(102, 36, 209);
     margin-bottom: 3px;
 }
 
 .introdução  p {
-    font: 500 1em "Raleway", arial, helvetica, sans-serif;
-    letter-spacing: 1px;
+    font: normal 1em "Raleway", arial, helvetica, sans-serif;
+    letter-spacing: 0.9px;
     color: rgba(0, 0, 0, 0.932);
     margin-bottom: 20px;
 }
