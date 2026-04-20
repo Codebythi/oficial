@@ -255,9 +255,9 @@ summary {
 }
 
 .content-inner {
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.35s ease;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.35s ease;
 }
 
 /* sobre */
@@ -277,7 +277,7 @@ section#sobre > img {
 
 img.foto {
     width: 155px;
-    margin: 45px auto 35px auto;
+    margin: 35px auto 40px auto;
     padding: 2px;
     display: block;
     border-radius: 100%;
