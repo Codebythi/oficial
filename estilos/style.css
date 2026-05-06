@@ -333,10 +333,9 @@ div.info:active {
 
 .info > p {
     font-size: clamp(0.7em, 3.4vw, 1.1em);
-    color: rgba(0, 0, 0, 0.733);
+    color: rgba(0, 0, 0, 0.774);
     letter-spacing: 1px;
     text-align: center;
-    font-weight: 550;
 }
 
 .info > img {
