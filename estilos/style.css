@@ -303,12 +303,12 @@ div.skills{
     flex-flow: row wrap;
     margin: auto;
     margin-bottom: 60px;
-    padding-top: 15px;
+    padding-top: 10px;
     justify-content: center;
 }
 
 .info-wrapper {
-  margin: 30px 5px 5px 5px;
+  margin: 35px 5px 5px 5px;
   width: 100%;
 }
 
