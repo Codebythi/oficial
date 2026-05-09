@@ -292,8 +292,8 @@ img.foto {
 
 .introdução  p {
     font: 500 1em "Raleway", arial, helvetica, sans-serif;
-    letter-spacing: 0.4px;
-    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.842);
     margin-bottom: 5px;
 }
 
@@ -308,7 +308,7 @@ div.skills{
 }
 
 .info-wrapper {
-  margin: 70px 5px 5px 5px;
+  margin: 80px 5px 5px 5px;
   width: 100%;
 }
 
@@ -333,7 +333,7 @@ div.info:active {
 
 .info > p {
     font-size: clamp(0.7em, 3.4vw, 1.1em);
-    color: rgba(0, 0, 0, 0.87);
+    color: rgba(0, 0, 0, 0.918);
     letter-spacing: 1px;
     text-align: center;
 }
