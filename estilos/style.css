@@ -308,7 +308,7 @@ div.skills{
 }
 
 .info-wrapper {
-  margin: 40px 5px 5px 5px;
+  margin: 45px 5px 5px 5px;
   width: 100%;
 }
 
@@ -336,6 +336,7 @@ div.info:active {
     color: rgba(0, 0, 0, 0.81);
     letter-spacing: 1px;
     text-align: center;
+    font-weight: 550;
 }
 
 .info > img {
