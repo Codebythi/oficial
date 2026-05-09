@@ -196,7 +196,7 @@ section.aviso > p {
 section.projetos {
     width: 100%;
     padding: 15px;
-    background: rgba(0, 0, 0, 0.699);
+    background: rgba(0, 0, 0, 0.747);
     box-shadow: 0 0 0.8px 0.1px var(--color-shadow);
     padding-bottom: 90px;
 }
@@ -333,7 +333,7 @@ div.info:active {
 
 .info > p {
     font-size: clamp(0.7em, 3.4vw, 1.1em);
-    color: rgba(0, 0, 0, 0.774);
+    color: rgba(0, 0, 0, 0.81);
     letter-spacing: 1px;
     text-align: center;
     font-weight: 550;
