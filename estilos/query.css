@@ -280,10 +280,6 @@
     }
 
     /* rodapé */
-    footer {
-        background-color: rgb(135, 60, 255);
-    }
-    
     div.contatos > p {
         font-size: 1em;
     }
