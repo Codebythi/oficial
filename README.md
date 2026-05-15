@@ -1,4 +1,4 @@
 # Portfólio
-portfólio adaptado com **flex-box,** **grid** e **midia query**, programado com **html** css e **javascript**.
+portfólio adaptado com **Flex-box,** **Grid** e **Midia query**, programado com **HTML** **CSS** e **Javascript**.
 
 https://codebythi.github.io/portfolio/
