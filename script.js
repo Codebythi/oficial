@@ -48,7 +48,7 @@ window.addEventListener('scroll', function() {
 });
 
 // proteção contra span e mailto para enviar uma mensagem pro email
-const user = "codebythi";
+const user = "c0d3byth1";
 const domain = "gmail.com";
 document.getElementById("email-link").href = `mailto:${user}@${domain}`;
 
