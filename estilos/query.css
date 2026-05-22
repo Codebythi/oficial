@@ -43,16 +43,10 @@
     }
 
     a.select {
-        font-size: 1em;
-        padding-bottom: 4px;
-        margin-left: 45px;
-    }
-
-    a.select {
         position: relative;
         font: normal clamp(0.6em, 2.5vw, 1em) 'Montserrat', arial, helvetica, sans-serif;
         text-decoration: none;
-        margin-right: 20px;
+        margin-right: 45px;
         letter-spacing: 2px;
         color: white;
         padding-bottom: 5px;
@@ -60,27 +54,6 @@
         align-items: center;
         justify-content: start;
     }
-
-    /* animação de borda */
-    a.select::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        background: white;
-        width: 100%;
-        height: 1.9px;
-        opacity: 0;
-        transform: scaleX(0);
-        transform-origin: left center;
-        transition: opacity 0.5s, transform 0.5s ease;
-    }
-
-    a:hover::after {
-        transform: scaleX(1);
-        opacity: 1;
-    }
-    /* ------------- */
 
     img.icon {
         display: block;
@@ -94,26 +67,54 @@
     
     /* sticky header */
     menu {
-        grid-template: 1fr / 2fr 1fr 2fr;
-        justify-items: end;
+        grid-template: 1fr / 2fr 475px 2fr;
         align-items: center;
+        justify-items: end;
         height: 110px;
         background: linear-gradient(to top, rgb(24, 24, 24), rgb(12, 12, 12));
         border-bottom: 4px solid rgba(135, 60, 255, 0.555);
     }
 
-    menu > a.select {
-        display: none;
-    }
-
     div.menu {
+        width: 100%;
+        padding-left: 50px;
         display: flex;
-        justify-self: start;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
     }
 
     div.menu > a {
-        font-size: clamp(0.6em, 2.5vw, 1.1em);
         margin-top: 8px;
+        letter-spacing: 1.5px;
+        position: relative;
+        font: normal clamp(0.6em, 2.5vw, 1.1em) 'Montserrat', arial, helvetica, sans-serif;
+        text-decoration: none;
+        color: white;
+        padding-bottom: 4px;
+    }
+
+    .menu > a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: white;
+        width: 100%;
+        height: 1.9px;
+        transform: scaleX(0);
+        transform-origin: bottom;
+        transition: transform 0.5s ease;
+        will-change: transform;
+    }
+
+    .menu > a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .menu-cel {
+        display: none;
     }
 
     menu > img.logo {
