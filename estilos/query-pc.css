@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    /* projetos */
+    .projetos > div > p {
+        font: normal 1em arial, helvetica, sans-serif;
+        width: 615px;
+    }
+
+    div.content-inner > p {
+        width: 613px;
+    }
+
+    /* sobre */
+    div.introdução {
+        margin: 120px 20px 120px 20px;
+    }
+    div.introdução > p {
+        margin-bottom: 50px;
+        width: 95%;
+    }
+
+    /* skills */
+
+    div.skills {
+        padding-top: 40px;
+    }
+
+    .skills > div.info {
+        width: 30%;
+    }
+    
+}

@@ -206,6 +206,11 @@
 
     .projetos > div > p {
         font: normal 1em arial, helvetica, sans-serif;
+        width: 315px;
+    }
+
+    div.content-inner > p {
+        width: 316px;
     }
 
     /* sobre */
