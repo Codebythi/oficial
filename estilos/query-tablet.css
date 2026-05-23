@@ -39,7 +39,8 @@
         justify-self: start;
         align-items: center;
         justify-content: start;
-        grid-area: 1 / 1 / 2 / 2 ; 
+        grid-area: 1 / 1 / 2 / 2 ;
+        margin-left: 30.5px; 
     }
 
     /* animação de borda */
