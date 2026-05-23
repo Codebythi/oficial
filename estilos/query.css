@@ -42,6 +42,8 @@
         grid-area: 1 / 1 / 2 / 2 ; 
     }
 
+    /* animação de borda */
+
     a.select {
         position: relative;
         font: normal clamp(0.6em, 2.5vw, 1em) 'Montserrat', arial, helvetica, sans-serif;
@@ -72,6 +74,8 @@
     a:hover::after {
         transform: scaleX(1);
     }
+
+    /* ----------------------------- */
 
     img.icon {
         display: block;
