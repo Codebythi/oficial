@@ -1,4 +1,4 @@
-const navLinks = document.querySelectorAll('menu a.select, nav a.select');
+const navLinks = document.querySelectorAll('menu a.select, menu a.menu-cel, menu a.menu-pc, nav a.select');
 
 //rolagem suave pelo link
 navLinks.forEach(link => {
