@@ -49,7 +49,7 @@
         font: normal clamp(0.6em, 2.5vw, 1em) 'Montserrat', arial, helvetica, sans-serif;
         text-decoration: none;
         margin-right: 45px;
-        letter-spacing: 1.5px;
+        letter-spacing: 2px;
         color: white;
         padding-bottom: 5px;
         justify-self: start;
@@ -63,7 +63,7 @@
         left: 0;
         bottom: 0;
         background: white;
-        width: 100%;
+        width: 98%;
         height: 1.9px;
         transform: scaleX(0);
         transform-origin: left center;
@@ -108,7 +108,7 @@
 
     div.menu > a {
         margin-top: 8px;
-        letter-spacing: 1.5px;
+        letter-spacing: 2px;
         position: relative;
         font: normal clamp(0.6em, 2.5vw, 1.1em) 'Montserrat', arial, helvetica, sans-serif;
         text-decoration: none;
@@ -123,7 +123,7 @@
         right: 0;
         bottom: 0;
         background: white;
-        width: 100%;
+        width: 98%;
         height: 1.9px;
         transform: scaleX(0);
         transform-origin: bottom;
