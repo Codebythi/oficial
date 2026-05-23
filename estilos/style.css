@@ -201,7 +201,7 @@ section.projetos {
 .projetos > div {
     max-width: 650px;
     min-width: (650px, 100%);
-    padding: 15px;
+    padding: 10px;
     background: var(--background-black);
     border-left: 5px solid var(--border-color);
     border-radius: 5px;
