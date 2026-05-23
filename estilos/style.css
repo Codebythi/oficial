@@ -201,7 +201,7 @@ section.projetos {
 .projetos > div {
     max-width: 650px;
     min-width: (650px, 100%);
-    padding: 15px;
+    padding: 12px;
     background: var(--background-black);
     border-left: 5px solid var(--border-color);
     border-radius: 5px;
@@ -238,6 +238,7 @@ section.projetos > div > h3 {
     font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
     line-height: 18px;
     letter-spacing: 0.5px;
+    width: 325px;
 }
 
 details.descrição {
