@@ -52,7 +52,7 @@ const user = "c0d3byth1";
 const domain = "gmail.com";
 document.getElementById("email-link").href = `mailto:${user}@${domain}`;
 
-// criando uma animação de abrir e fechar no details
+// criando uma animação de abrir e fechar o details
 document.querySelectorAll('details.descrição').forEach(detail => {
   const inner = detail.querySelector('.content-inner');
   const summary = detail.querySelector('summary');
@@ -61,6 +61,7 @@ document.querySelectorAll('details.descrição').forEach(detail => {
     e.preventDefault();
 
     if (detail.open) {
+      // Fecha o clicado
       inner.style.maxHeight = inner.scrollHeight + 'px';
       requestAnimationFrame(() => {
         requestAnimationFrame(() => {
@@ -70,7 +71,25 @@ document.querySelectorAll('details.descrição').forEach(detail => {
       inner.addEventListener('transitionend', () => {
         detail.open = false;
       }, { once: true });
+
     } else {
+      // Fecha todos os outros primeiro
+      document.querySelectorAll('details.descrição').forEach(other => {
+        if (other === detail || !other.open) return;
+
+        const otherInner = other.querySelector('.content-inner');
+        otherInner.style.maxHeight = otherInner.scrollHeight + 'px';
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            otherInner.style.maxHeight = '0';
+          });
+        });
+        otherInner.addEventListener('transitionend', () => {
+          other.open = false;
+        }, { once: true });
+      });
+
+      // Abre o clicado
       detail.open = true;
       requestAnimationFrame(() => {
         requestAnimationFrame(() => {

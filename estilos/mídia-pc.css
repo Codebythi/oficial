@@ -2,24 +2,52 @@
 
 @media screen and (min-width: 992px) {
 
+    /* cabeçario */
+    header > h1 {
+        font: normal clamp(4em, 5.5vw, 5.5em) 'Montserrat', arial, helvetica, sans-serif;
+    }
+
+    /* sticky header */
+    div.menu > a {
+        font: normal clamp(0.6em, 1vw, 0.9em) 'Montserrat', arial, helvetica, sans-serif;
+    }
+
     /* projetos */
     .projetos > div > p {
-        font: normal 1em arial, helvetica, sans-serif;
-        width: 615px;
+        font: normal 0.8em arial, helvetica, sans-serif;
+        width: 400px;
     }
 
     div.content-inner > p {
-        width: 613px;
+        font-size: 0.8em;
+        width: 400px;
+    }
+
+    /* introdução e sobre */
+    div.introdução > h2 {
+        font-size: clamp( 1em, 3.5vw, 3.5em);
+    }
+    
+    div.info > h3 {
+        font-size: 1.2em;
+    }
+
+    div.introdução > p {
+        font-size: clamp(0.8em, 1.1vw, 1.1em);
+        width: 85%;
+    }
+
+    section#sobre > img {
+        width: 102%;
     }
 
     /* skills */
-
     div.skills {
         padding-top: 40px;
     }
 
     .skills > div.info {
-        width: 28%;
+        width: 26%;
     }
     
 }

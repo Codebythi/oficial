@@ -4,26 +4,22 @@
         box-sizing: border-box;
     }
 
-    html {
-        zoom: 0.8;
-    }
-
     /* cabeçario */
     header {
-        height: 800px;
-        padding: 40px;
+        height: 640px;
+        padding: 26px;
         grid-template: 50px 1fr / 2fr 1fr 2fr;
         justify-items: end;
     }
 
     header > img.logo {
-        max-width: 380px;
+        max-width: 300px;
         grid-area: 1 / 2 / 2 / 3 ;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     header  > h1 {
-        font: normal clamp(4em, 6.9vw, 6.9em) 'Montserrat', arial, helvetica, sans-serif;
+        font: normal clamp(3.5em, 4vw, 4em) 'Montserrat', arial, helvetica, sans-serif;
         align-self: center;
         transform: translate(0, -15px);
         letter-spacing: 3px;
@@ -40,16 +36,16 @@
         align-items: center;
         justify-content: start;
         grid-area: 1 / 1 / 2 / 2 ;
-        margin-left: 31px; 
+        margin-left: 26px; 
     }
 
     /* animação de borda */
 
     a.select {
         position: relative;
-        font: normal clamp(0.6em, 2.5vw, 1em) 'Montserrat', arial, helvetica, sans-serif;
+        font: normal 0.8em 'Montserrat', arial, helvetica, sans-serif;
         text-decoration: none;
-        margin-right: 45px;
+        margin-right: 40px;
         letter-spacing: 2px;
         color: white;
         padding-bottom: 5px;
@@ -81,29 +77,29 @@
     img.icon {
         display: block;
         order: 3;
-        min-width: 45px;
+        min-width: 36px;
         justify-self: end;
-        margin-right: 50px;
+        margin-right: 31px;
         margin-left: 50px;
         grid-area: 1 / 3 / 1 / 4 ;
     }
     
     /* sticky header */
     menu {
-        grid-template: 1fr / 2fr 475px 2fr;
+        grid-template: 1fr / 2fr 445px 2fr;
         align-items: center;
         justify-items: end;
-        height: 110px;
+        height: 88px;
         background: linear-gradient(to top, rgb(24, 24, 24), rgb(12, 12, 12));
-        border-bottom: 4px solid rgba(135, 60, 255, 0.555);
+        border-bottom: 3px solid rgba(135, 60, 255, 0.555);
     }
 
     div.menu {
         width: 100%;
-        padding-left: 50px;
+        padding-left: 5px;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
     }
 
@@ -111,7 +107,7 @@
         margin-top: 8px;
         letter-spacing: 2px;
         position: relative;
-        font: normal clamp(0.6em, 2.5vw, 1.1em) 'Montserrat', arial, helvetica, sans-serif;
+        font: normal clamp(0.6em, 1.8vw, 1.8em) 'Montserrat', arial, helvetica, sans-serif;
         text-decoration: none;
         color: white;
         padding-bottom: 3px;
@@ -142,7 +138,8 @@
 
     menu > img.logo {
         display: block;
-        max-width: 290px;
+        max-width: 240px;
+        margin-left: 0px;
         grid-area: 1 / 1 / 1 / 2;
         justify-self: start;
     }
@@ -163,26 +160,29 @@
     img.icon2 {
         display: block;
         order: 3;
-        width: 40px;
+        width: 32px;
         justify-self: end;
-        margin-right: 80px;
-        margin-left: 40px;
+        margin-right: 60px;
+        margin-left: 10px;
         grid-area: 1 / 3 / 1 / 4 ;
     }
 
     /* codigo principal */
     
-    .aviso {
-        max-width: 1000px;
+    section.aviso {
+        max-width: 700px;
         text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
     }
 
     .aviso > h2 {
-        font-size: 2.2em;
+        font-size: 1.8em;
     }
 
     .aviso > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     /* projetos */
@@ -190,28 +190,40 @@
     section.projetos {
         width: 90%;
         margin: auto auto 150px auto;        
-        display: grid;
-        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-        gap: 50px;
-        justify-items: center;
-        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 40px;
         border-radius: 10px;
-        padding: 50px;
+        padding: 35px;
         box-shadow: 0 0 1.5px 0.1px var(--color-shadow);
     }
 
     .projetos > div {
-        width: 100%;
+        width: 46%;
         margin: 0;
     }
 
     .projetos > div > p {
-        font: normal 1em arial, helvetica, sans-serif;
-        width: 315px;
+        font-size: 0.8em;
+        width: 255px;
+        font-family: arial, helvetica, sans-serif;
+    }
+
+    .descrição > summary {
+        font-size: 13px;
+        margin: 2px 0;
+    }
+
+    section.projetos > div > h3 {
+        font-size: 1em;
     }
 
     div.content-inner > p {
-        width: 316px;
+        font-size: 0.7em;
+        font-family: arial, helvetica, sans-serif;
+        width: 255px;
     }
 
     /* sobre */
@@ -243,9 +255,9 @@
     }
 
     .introdução > p {
-        width: 80%;
-        font-size: clamp(0.9em, 1.3vw, 1.3em);
-        line-height: 22px;
+        width: 90%;
+        font-size: clamp(0.8em, 1.3vw, 1.3em);
+        line-height: 17px;
         margin-bottom: 40px;
         color: black;
     }
@@ -255,7 +267,7 @@
     }
     
     div.introdução > h2 {
-        font: bold clamp( 3em, 4.3vw, 6em) 'Montserrat', arial, helvetica, sans-serif;
+        font: bold clamp( 1em, 5.5vw, 5.5em) 'Montserrat', arial, helvetica, sans-serif;
         margin: 20px 0px 5px 0px;
         padding: 0;
         margin-left: 0;
@@ -265,13 +277,13 @@
 
     /* skills */
     div.skills {
-        width: 100%;
+        width: 105%;
         margin-left: 0;
         margin-bottom: 0;
         flex-flow: row wrap;
         justify-content: start;
         padding-top: 25px;
-        border-top: 2.3px solid rgba(24, 24, 24, 0.452);
+        border-top: 1.5px solid rgba(24, 24, 24, 0.452);
     }
 
     .skills > h2 {
@@ -285,6 +297,7 @@
         justify-content: center;
         flex-flow: column nowrap;
         margin: 10px;
+        padding: 17px 5px;
     }
 
     div.info:active {
@@ -297,6 +310,7 @@
 
     div.info > h3 {
         text-align: center;
+        font-size: 1em;
     }
 
     div.info > p {
@@ -305,7 +319,7 @@
     }
 
     .info > img {
-        max-width: 45%;
+        max-width: 47%;
     }
 
     /* rodapé */
