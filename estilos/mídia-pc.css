@@ -50,4 +50,7 @@
         width: 26%;
     }
     
+    div.contatos > p {
+        font-size: 1em;
+    }
 }
