@@ -209,7 +209,6 @@
         font-size: 0.8em;
         letter-spacing: 0.3px;
         width: 255px;
-        font-family: arial, helvetica, sans-serif;
         line-height: 15px;
     }
 
@@ -223,9 +222,10 @@
     }
 
     div.content-inner > p {
-        font-size: 0.7em;
-        font-family: arial, helvetica, sans-serif;
         width: 255px;
+        font-size: 0.8em;
+        line-height: 15px;
+        letter-spacing: 0.3px;
     }
 
     /* sobre */
