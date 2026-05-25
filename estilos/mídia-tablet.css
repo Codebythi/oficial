@@ -207,8 +207,10 @@
 
     .projetos > div > p {
         font-size: 0.8em;
+        letter-spacing: 0.3px;
         width: 255px;
         font-family: arial, helvetica, sans-serif;
+        line-height: 15px;
     }
 
     .descrição > summary {
@@ -256,9 +258,9 @@
 
     .introdução > p {
         width: 90%;
-        font-size: clamp(0.8em, 1.3vw, 1.3em);
-        line-height: 17px;
-        margin-bottom: 40px;
+        font-size: clamp(0.8em, 1.2vw, 1.2em);
+        line-height: 16px;
+        margin-bottom: 30px;
         color: black;
     }
     
@@ -282,7 +284,7 @@
         margin-bottom: 0;
         flex-flow: row wrap;
         justify-content: start;
-        padding-top: 25px;
+        padding-top: 20px;
         border-top: 1.5px solid rgba(24, 24, 24, 0.452);
     }
 
