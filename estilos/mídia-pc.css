@@ -59,4 +59,10 @@
     div.contatos > p {
         font-size: 1em;
     }
+
+    /* rodapé */
+    div.contatos {
+        margin: 20px;
+    }
+
 }

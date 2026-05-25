@@ -328,4 +328,8 @@
     div.contatos > p {
         font-size: 0.9em;
     }
+    div.contatos {
+        margin: 10px;
+    }
+
 }
