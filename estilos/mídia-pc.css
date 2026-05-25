@@ -13,6 +13,10 @@
     }
 
     /* projetos */
+    div.info {
+        margin: 10px;
+    }
+    
     .projetos > div > p {
         font: normal 0.8em arial, helvetica, sans-serif;
         width: 400px;
