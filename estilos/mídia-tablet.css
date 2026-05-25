@@ -239,7 +239,7 @@
 
     div.introdução {
         justify-self: center;
-        width: 85%;
+        width: 80%;
         margin: 40px 0 40px 20px;
         align-self: center;
         grid-area: 1 / 1 / 1 / 2;
@@ -258,8 +258,8 @@
 
     .introdução > p {
         width: 90%;
-        font-size: clamp(0.8em, 1.2vw, 1.2em);
-        line-height: 16px;
+        font-size: clamp(0.8em, 1vw, 1em);
+        line-height: 17px;
         margin-bottom: 30px;
         color: black;
     }
@@ -269,7 +269,7 @@
     }
     
     div.introdução > h2 {
-        font: bold clamp( 1em, 5.5vw, 5.5em) 'Montserrat', arial, helvetica, sans-serif;
+        font: bold clamp( 1em, 5vw, 5em) 'Montserrat', arial, helvetica, sans-serif;
         margin: 20px 0px 5px 0px;
         padding: 0;
         margin-left: 0;
@@ -299,7 +299,7 @@
         justify-content: center;
         flex-flow: column nowrap;
         margin: 8px;
-        padding: 17px 5px;
+        padding: 15px 5px;
     }
 
     div.info:active {

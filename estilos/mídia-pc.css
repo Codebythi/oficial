@@ -29,7 +29,7 @@
 
     /* introdução e sobre */
     div.introdução > h2 {
-        font-size: clamp( 1em, 3.5vw, 3.5em);
+        font-size: clamp( 1em, 3.4vw, 3.4em);
     }
     
     div.info > h3 {
@@ -37,21 +37,23 @@
     }
 
     div.introdução > p {
-        font-size: clamp(0.8em, 1.1vw, 1.1em);
-        width: 85%;
+        font-size: clamp(0.8em, 1vw, 1em);
+        width: 90%;
+        line-height: 21px;
     }
 
     section#sobre > img {
-        width: 102%;
+        width: 100%;
     }
 
     /* skills */
     div.skills {
-        padding-top: 40px;
+        padding-top: 25px;
     }
 
     .skills > div.info {
-        width: 26%;
+        width: 27%;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
     }
     
     div.contatos > p {
