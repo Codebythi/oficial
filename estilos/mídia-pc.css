@@ -3,6 +3,10 @@
 @media screen and (min-width: 992px) {
 
     /* cabeçario */
+    header {
+        height: 640px;
+    }
+    
     header > h1 {
         font: normal clamp(4em, 5.5vw, 5.5em) 'Montserrat', arial, helvetica, sans-serif;
     }
@@ -12,7 +16,26 @@
         font: normal clamp(0.6em, 1vw, 0.9em) 'Montserrat', arial, helvetica, sans-serif;
     }
 
+    /* código principal */
+    section.aviso {
+        max-width: 650px;
+    }
+    
+    .aviso > h2 {
+        font-size: 1.7em;
+    }
+    
+    .aviso > p {
+        font-size: 0.9em;
+        line-height: 23px;
+        letter-spacing: 0.5px;
+    }
+
     /* projetos */
+    section.projetos {
+        width: 85%;
+    }
+
     div.info {
         margin: 10px;
     }
@@ -20,11 +43,15 @@
     .projetos > div > p {
         font: normal 0.8em arial, helvetica, sans-serif;
         width: 400px;
+        letter-spacing: 0.5px;
+        line-height: 17px;
     }
 
     div.content-inner > p {
         font-size: 0.8em;
         width: 400px;
+        letter-spacing: 0.5px;
+        line-height: 17px;
     }
 
     /* introdução e sobre */
@@ -40,10 +67,11 @@
         font-size: clamp(0.8em, 1vw, 1em);
         width: 90%;
         line-height: 21px;
+        margin-bottom: 30px;
     }
 
     section#sobre > img {
-        width: 100%;
+        width: 105%;
     }
 
     /* skills */
@@ -52,17 +80,24 @@
     }
 
     .skills > div.info {
-        width: 27%;
+        width: 28%;
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
-    }
-    
-    div.contatos > p {
-        font-size: 1em;
     }
 
     /* rodapé */
+    footer {
+        background-color: rgb(132, 56, 255);
+    }
+
     div.contatos {
         margin: 20px;
     }
 
+    div.contatos > p {
+        font-size: 1em;
+    }
+
+    .icones > a > img {
+        max-width: 40px;
+    }
 }
