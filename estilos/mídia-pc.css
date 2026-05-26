@@ -37,7 +37,7 @@
 
     /* projetos */
     section.projetos {
-        width: 85%;
+        width: 80%;
         margin-bottom: 150px;
     }
 
@@ -81,12 +81,12 @@
     }
 
     section#sobre > img {
-        width: 100%;
+        width: 99%;
     }
 
     /* skills */
     div.skills {
-        width: 105%;
+        width: 104%;
         padding-top: 25px;
     }
 
@@ -114,6 +114,6 @@
     }
 
     .icones > a > img {
-        max-width: 40px;
+        max-width: 35px;
     }
 }
