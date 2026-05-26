@@ -117,6 +117,7 @@ menu {
     letter-spacing: 2px;
     color: white;
     margin-left: 10px;
+    padding-bottom: 2px;
 }
 
 .menu-cel::after {
