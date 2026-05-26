@@ -7,6 +7,10 @@
         height: 640px;
     }
     
+    header > img.logo {
+        max-width: 300px;
+    }
+
     header > h1 {
         font: normal clamp(4em, 5.5vw, 5.5em) 'Montserrat', arial, helvetica, sans-serif;
     }
@@ -34,6 +38,7 @@
     /* projetos */
     section.projetos {
         width: 85%;
+        margin-bottom: 150px;
     }
 
     div.info {
@@ -55,6 +60,11 @@
     }
 
     /* introdução e sobre */
+    div.introdução {
+        margin: 40px 0 40px 20px;
+        width: 75%;
+    }
+    
     div.introdução > h2 {
         font-size: clamp( 1em, 3.4vw, 3.4em);
     }
@@ -71,12 +81,17 @@
     }
 
     section#sobre > img {
-        width: 105%;
+        width: 100%;
     }
 
     /* skills */
     div.skills {
+        width: 105%;
         padding-top: 25px;
+    }
+
+    div.info > img {
+        width: 45%;
     }
 
     .skills > div.info {
@@ -87,6 +102,7 @@
     /* rodapé */
     footer {
         background-color: rgb(132, 56, 255);
+        padding-left: 0px;
     }
 
     div.contatos {

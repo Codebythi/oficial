@@ -6,20 +6,20 @@
 
     /* cabeçario */
     header {
-        height: 600px;
+        height: 500px;
         padding: 26px;
         grid-template: 50px 1fr / 2fr 1fr 2fr;
         justify-items: end;
     }
 
     header > img.logo {
-        max-width: 300px;
+        max-width: 250px;
         grid-area: 1 / 2 / 2 / 3 ;
         margin-left: 30px;
     }
 
     header  > h1 {
-        font: normal clamp(3.5em, 3vw, 3em) 'Montserrat', arial, helvetica, sans-serif;
+        font: normal clamp(1em, 6vw, 6em) 'Montserrat', arial, helvetica, sans-serif;
         align-self: center;
         transform: translate(0, -15px);
         letter-spacing: 3px;
@@ -170,28 +170,29 @@
     /* codigo principal */
     
     section.aviso {
-        max-width: 550px;
+        max-width: 400px;
         text-align: center;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
+        margin: 40px auto 10px auto;
     }
 
     .aviso > h2 {
-        font-size: 1.6em;
+        font-size: 1.3em;
         margin-bottom: 0;
     }
 
     .aviso > p {
-        font-size: 0.8em;
+        font-size: 0.7em;
         line-height: 20px;
     }
 
     /* projetos */
 
     section.projetos {
-        width: 80%;
-        margin: auto auto 150px auto;        
+        width: 75%;
+        margin: auto auto 80px auto;        
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
@@ -205,12 +206,13 @@
     .projetos > div {
         width: 44%;
         margin: 0;
+        padding: 7px;
     }
 
     .projetos > div > p {
-        font-size: 0.7em;
+        font-size: 0.6em;
         letter-spacing: 0.3px;
-        width: 210px;
+        width: 200px;
         line-height: 15px;
     }
 
@@ -220,12 +222,12 @@
     }
 
     section.projetos > div > h3 {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     div.content-inner > p {
-        width: 210px;
-        font-size: 0.7em;
+        width: 200px;
+        font-size: 0.6em;
         line-height: 15px;
         letter-spacing: 0.3px;
     }
@@ -242,7 +244,7 @@
     div.introdução {
         justify-self: center;
         width: 70%;
-        margin: 40px 0 40px 20px;
+        margin: 10px 0 10px 20px;
         align-self: center;
         grid-area: 1 / 1 / 1 / 2;
     }
@@ -259,9 +261,9 @@
     }
 
     .introdução > p {
-        width: 95%;
-        font-size: clamp(0.7em, 0.8vw, 0.8em);
-        line-height: 17px;
+        width: 75%;
+        font-size: clamp(0.4em, 1.2vw, 1.2em);
+        line-height: 14px;
         margin-bottom: 20px;
         color: black;
     }
@@ -271,7 +273,7 @@
     }
     
     div.introdução > h2 {
-        font: bold clamp( 1em, 4vw, 4em) 'Montserrat', arial, helvetica, sans-serif;
+        font: bold clamp( 1em, 3.5vw, 3.5em) 'Montserrat', arial, helvetica, sans-serif;
         margin: 20px 0px 5px 0px;
         padding: 0;
         margin-left: 0;
@@ -281,8 +283,7 @@
 
     /* skills */
     div.skills {
-        width: 105%;
-        margin-left: 0;
+        width: 125%;
         margin-bottom: 0;
         flex-flow: row wrap;
         justify-content: start;
@@ -323,7 +324,7 @@
     }
 
     .info > img {
-        max-width: 50%;
+        max-width: 51%;
     }
 
     /* rodapé */
