@@ -9,6 +9,7 @@
     
     header > img.logo {
         max-width: 300px;
+        margin-left: 0px;
     }
 
     header > h1 {
@@ -37,16 +38,22 @@
 
     /* projetos */
     section.projetos {
-        width: 80%;
+        width: 82%;
         margin-bottom: 150px;
+        padding: 50px;
     }
 
     section.projetos > div {
-        padding: 10px;
+        padding: 12px;
         margin: 10px;
     }
     
-    .projetos > div > p {
+    section.projetos > div > h3 {
+        font-size: 1.1em;
+        margin: 4px 0;
+    }
+
+    section.projetos > div > p {
         font: normal 0.8em arial, helvetica, sans-serif;
         width: 400px;
         letter-spacing: 0.5px;
@@ -62,8 +69,8 @@
 
     /* introdução e sobre */
     div.introdução {
-        margin: 20px 0 40px 20px;
-        width: 75%;
+        margin: 40px 0 40px 20px;
+        width: 77%;
     }
     
     div.introdução > h2 {
@@ -88,12 +95,12 @@
 
     /* skills */
     div.skills {
-        width: 105%;
+        width: 102%;
         padding-top: 25px;
     }
 
     div.info > img {
-        width: 45%;
+        width: 50%;
     }
 
     .skills > div.info {
