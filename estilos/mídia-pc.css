@@ -5,6 +5,7 @@
     /* cabeçario */
     header {
         height: 640px;
+        padding: 26px;
     }
     
     header > img.logo {
@@ -18,7 +19,7 @@
 
     /* sticky header */
     div.menu > a {
-        font: normal clamp(0.6em, 1vw, 0.9em) 'Montserrat', arial, helvetica, sans-serif;
+        font: normal 13.66px 'Montserrat', arial, helvetica, sans-serif;
     }
 
     /* código principal */
@@ -38,7 +39,7 @@
 
     /* projetos */
     section.projetos {
-        width: 83%;
+        width: 82%;
         margin-bottom: 150px;
         padding: 50px;
     }
@@ -49,7 +50,7 @@
     }
     
     section.projetos > div > h3 {
-        font-size: 1em;
+        font-size: 1.1em;
         margin: 4px 0;
     }
 

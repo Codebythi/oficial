@@ -6,14 +6,14 @@
 
     /* cabeçario */
     header {
-        height: 500px;
-        padding: 26px;
+        height: 550px;
+        padding: 26px 80px;
         grid-template: 50px 1fr / 2fr 1fr 2fr;
         justify-items: end;
     }
 
     header > img.logo {
-        max-width: 250px;
+        max-width: 260px;
         grid-area: 1 / 2 / 2 / 3 ;
         margin-left: 30px;
     }
@@ -107,7 +107,7 @@
         margin-top: 8px;
         letter-spacing: 2px;
         position: relative;
-        font: normal clamp(0.6em, 1.8vw, 1.8em) 'Montserrat', arial, helvetica, sans-serif;
+        font: normal clamp(0.6em, 1.8vw, 1em) 'Montserrat', arial, helvetica, sans-serif;
         text-decoration: none;
         color: white;
         padding-bottom: 3px;
@@ -191,7 +191,7 @@
     /* projetos */
 
     section.projetos {
-        width: 75%;
+        width: 76%;
         margin: auto auto 80px auto;        
         display: flex;
         flex-flow: row wrap;
@@ -204,7 +204,7 @@
     }
 
     .projetos > div {
-        width: 44%;
+        width: 46%;
         margin: 0;
         padding: 7px;
     }
@@ -257,7 +257,7 @@
         grid-area: 1 / 2 / 2 / 3;
         align-self: end;
         justify-self: start;
-        transform: translate(-40px, 0);
+        transform: translate(-35px, 0);
     }
 
     .introdução > p {
@@ -283,7 +283,7 @@
 
     /* skills */
     div.skills {
-        width: 125%;
+        width: 124%;
         margin-bottom: 0;
         flex-flow: row wrap;
         justify-content: start;
@@ -297,7 +297,7 @@
     }
 
     div.info {
-        width: 26%;
+        width: 25%;
         background: white;
         justify-content: center;
         flex-flow: column nowrap;
@@ -315,7 +315,7 @@
 
     div.info > h3 {
         text-align: center;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     div.info > p {
@@ -337,10 +337,10 @@
     }
 
     div.contatos {
-        margin: 10px;
+        margin: 13px;
     }
 
     .icones > a > img {
-        max-width: 30px;
+        max-width: 32px;
     }
 }
