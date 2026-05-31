@@ -177,16 +177,16 @@ section.aviso {
 }
 
 .aviso > h2 {
-    font: 600 1.5em 'mont';
+    font: 600 1.4em 'mont';
     margin: auto 15px 10px ;
     letter-spacing: 1px;
     color: var(--primary-color);
 }
 
 section.aviso > p {
-    font: 500 1.3em arial, helvetica, sans-serif, ;
+    font-size: 0.9em;
     margin: 15px;
-    width: 92%;
+    width: 90%;
 }
 
 /* projetos */
