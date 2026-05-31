@@ -105,9 +105,9 @@
         width: 50%;
     }
 
-    .skills > div.info {
+    div.skills > div.info {
         width: 28%;
-        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
         margin: 10px;
     }
 

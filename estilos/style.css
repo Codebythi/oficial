@@ -329,7 +329,7 @@ div.skills > div.info:active {
 }
 
 .skills > .info > p {
-    font-size: clamp(0.7em, 3.4vw, 1.1em);
+    font-size: 0.8em;
     color: rgba(0, 0, 0, 0.918);
     letter-spacing: 1px;
     text-align: center;
