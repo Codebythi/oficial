@@ -7,7 +7,7 @@
     /* cabeçario */
     header {
         height: 550px;
-        padding: 26px 80px;
+        padding: 26px 60px;
         grid-template: 50px 1fr / 2fr 1fr 2fr;
         justify-items: end;
     }
@@ -337,10 +337,10 @@
     }
 
     div.contatos {
-        margin: 13px;
+        margin: 12px;
     }
 
     .icones > a > img {
-        max-width: 32px;
+        max-width: 34px;
     }
 }
