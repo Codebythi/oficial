@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1280px) {
 
     /* cabeçario */
     header {
@@ -47,6 +47,7 @@
     section.projetos > div {
         padding: 12px;
         margin: 10px;
+        width: 45%;
     }
     
     section.projetos > div > h3 {

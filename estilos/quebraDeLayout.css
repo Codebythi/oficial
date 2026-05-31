@@ -1,0 +1,12 @@
+@media screen and (min-width: 992px) {
+
+    section.projetos > div > p {
+        font-size: 0.7em;
+        width: 302px;
+    }
+
+    section.projetos > div > h3 {
+        font-size: 1em;
+    }
+    
+}
