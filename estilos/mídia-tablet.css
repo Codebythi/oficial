@@ -296,7 +296,7 @@
         margin-top: 0px;
     }
 
-    div.info {
+    div.skills > div.info {
         width: 25%;
         background: white;
         justify-content: center;
@@ -305,25 +305,25 @@
         padding: 15px 5px;
     }
 
-    div.info:active {
+    div.skills > div.info:active {
         transform: scale(0.85);
     }
 
-    div.info:hover {
+    div .skills > .info:hover {
         transform: scale(0.90);
     }
 
-    div.info > h3 {
+    div.skills > div.info > h3 {
         text-align: center;
         font-size: 0.9em;
     }
 
-    div.info > p {
+    div.skills > div.info > p {
         display: none;
     
     }
 
-    .info > img {
+    .skills > .info > img {
         max-width: 51%;
     }
 
