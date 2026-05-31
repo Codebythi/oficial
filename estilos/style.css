@@ -184,7 +184,7 @@ section.aviso {
 }
 
 .aviso > p {
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 15px;
     width: 90%;
 }
@@ -228,14 +228,14 @@ section.projetos {
 }
 
 section.projetos > div > h3 {
-    font: 600 1.2em  'Montserrat', arial, helvetica, sans-serif;
+    font: 600 1.3em  'Montserrat', arial, helvetica, sans-serif;
     letter-spacing: 1px;
     margin: 8px 0;
     color: rgb(238, 237, 237);
 }
 
 .projetos > div > p, details > .content-inner > p {
-    font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
+    font: 500 1em "Raleway", arial, helvetica, sans-serif;
     line-height: 18px;
     letter-spacing: 0.5px;
     width: 328px;
@@ -282,13 +282,13 @@ img.foto {
 }
 
 .introdução  h2 {
-    font: normal 2em  'Montserrat' arial, helvetica, sans-serif;
+    font: normal 2em  'Montserrat', arial, helvetica, sans-serif;
     color: rgb(102, 36, 209);
     margin-bottom: 3px;
 }
 
 .introdução  p {
-    font-size: 1em;
+    font: 500 1.1em "Raleway" arial, helvetica, sans-serif;
     letter-spacing: 0.3px;
     color: rgba(0, 0, 0, 0.856);
     margin-bottom: 5px;
