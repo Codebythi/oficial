@@ -131,7 +131,7 @@ menu {
     height: 1.9px;
     transform: scaleX(0);
     transform-origin: left center;
-    transition: transform 0.8s ease;
+    transition: transform 0.6s ease;
     will-change: transform;
 }
 
