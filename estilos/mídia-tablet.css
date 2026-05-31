@@ -250,14 +250,14 @@
     }
 
     section#sobre > img {
-        width: 104%;
+        width: 103%;
         margin-top: 80px;
         display: block;
         margin-right: 50px;
         grid-area: 1 / 2 / 2 / 3;
         align-self: end;
         justify-self: start;
-        transform: translate(-35px, 0);
+        transform: translate(-45px, 0);
     }
 
     .introdução > p {
@@ -283,7 +283,7 @@
 
     /* skills */
     div.skills {
-        width: 124%;
+        width: 120%;
         margin-bottom: 0;
         flex-flow: row wrap;
         justify-content: start;
