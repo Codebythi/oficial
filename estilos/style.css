@@ -290,7 +290,7 @@ img.foto {
 .introdução  p {
     font: 500 1em "Raleway", arial, helvetica, sans-serif;
     letter-spacing: 0.3px;
-    color: rgba(0, 0, 0, 0.856);
+    color: rgba(0, 0, 0, 0.89);
     margin-bottom: 5px;
 }
 
@@ -305,27 +305,27 @@ div.skills{
 }
 
 .info-wrapper {
-  margin: 100px 5px 5px 5px;
-  width: 100%;
+    margin: 100px 5px 5px 5px;
+    width: 100%;
 }
 
 div.skills > div.info {
-  background-color: rgb(250, 248, 248);
-  border-radius: 4px;
-  box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.459);
-  padding: 20px 10px;
-  width: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  transition: transform 0.5s, box-shadow 0.5s;
-  will-change: transform;
-  box-sizing: border-box;
-  margin-top: 40px;
+    background-color: rgb(250, 248, 248);
+    border-radius: 4px;
+    box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.459);
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    transition: transform 0.5s, box-shadow 0.5s;
+    will-change: transform;
+    box-sizing: border-box;
+    margin-top: 40px;
 }
 
 div.skills > div.info:active {
-  transform: scale(0.80);
+    transform: scale(0.80);
 }
 
 .skills > .info > p {
