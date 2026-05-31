@@ -183,10 +183,10 @@ section.aviso {
     color: var(--primary-color);
 }
 
-section.aviso > p {
+.aviso > p {
     font-size: 0.9em;
     margin: 15px;
-    width: 87%;
+    width: 90%;
 }
 
 /* projetos */
@@ -238,7 +238,7 @@ section.projetos > div > h3 {
     font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
     line-height: 18px;
     letter-spacing: 0.5px;
-    width: 325px;
+    width: 328px;
 }
 
 details.descrição {
@@ -282,13 +282,13 @@ img.foto {
 }
 
 .introdução  h2 {
-    font: normal 2em  'Montserrat', arial, helvetica, sans-serif;
+    font: normal 2em  'Montserrat' arial, helvetica, sans-serif;
     color: rgb(102, 36, 209);
     margin-bottom: 3px;
 }
 
 .introdução  p {
-    font: 500 1em "Raleway", arial, helvetica, sans-serif;
+    font-size: 1em;
     letter-spacing: 0.3px;
     color: rgba(0, 0, 0, 0.856);
     margin-bottom: 5px;
@@ -321,7 +321,7 @@ div.skills > div.info {
     transition: transform 0.5s, box-shadow 0.5s;
     will-change: transform;
     box-sizing: border-box;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 div.skills > div.info:active {
