@@ -6,7 +6,7 @@
 
     /* cabeçario */
     header {
-        height: 100vh;
+        height: 550px;
         padding: 26px 60px;
         grid-template: 50px 1fr / 2fr 1fr 2fr;
         justify-items: end;
