@@ -257,7 +257,7 @@
         grid-area: 1 / 2 / 2 / 3;
         align-self: end;
         justify-self: start;
-        transform: translate(-45px, 0);
+        transform: translate(-40px, 0);
     }
 
     .introdução > p {
