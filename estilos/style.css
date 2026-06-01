@@ -183,7 +183,7 @@ section.aviso {
     color: var(--primary-color);
 }
 
-section.aviso > p {
+.aviso > p {
     font-size: 1em;
     margin: 15px;
     width: 92%;
