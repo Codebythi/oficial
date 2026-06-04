@@ -55,7 +55,14 @@
         margin: 4px 0;
     }
 
-    section.projetos > div > p {
+    section.projetos > div > p{
+        font: normal 0.8em arial, helvetica, sans-serif;
+        width: 400px;
+        letter-spacing: 0.5px;
+        line-height: 17px;
+    }
+
+    div.content-inner > p {
         font: normal 0.8em arial, helvetica, sans-serif;
         width: 400px;
         letter-spacing: 0.5px;
