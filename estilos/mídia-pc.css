@@ -92,7 +92,7 @@
 
     div.introdução > p {
         font-size: clamp(0.8em, 1vw, 1em);
-        width: 81%;
+        width: 88%;
         line-height: 21px;
         margin-bottom: 30px;
     }
