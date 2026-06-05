@@ -172,7 +172,7 @@ main {
 
 section.aviso {
     max-width: 800px;
-    margin: 60px auto 80px auto;
+    margin: 60px auto 60px auto;
     color: var(--color-text);
 }
 
@@ -184,7 +184,7 @@ section.aviso {
 }
 
 .aviso > p {
-    font-size: 0.9em;
+    font-size: 15px;
     margin: 15px;
     width: 92%;
 }
@@ -228,17 +228,17 @@ section.projetos {
 }
 
 section.projetos > div > h3 {
-    font: 600 1.3em  'Montserrat', arial, helvetica, sans-serif;
+    font: 600 1.2em  'Montserrat', arial, helvetica, sans-serif;
     letter-spacing: 1px;
     margin: 8px 0;
     color: rgb(238, 237, 237);
 }
 
 .projetos > div > p, details > .content-inner > p {
-    font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
-    line-height: 18px;
+    font: 500 13.5px "Raleway", arial, helvetica, sans-serif;
+    line-height: 19px;
     letter-spacing: 0.5px;
-    width: 325px;
+    width: 320px;
 }
 
 details.descrição {
@@ -265,7 +265,7 @@ aside {
 section#sobre, div.introdução {
     width: 100%;
     margin: auto;
-    padding: 10.5px;
+    padding: 9.5px;
 }
 
 section#sobre > img {

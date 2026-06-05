@@ -245,7 +245,7 @@
     div.introdução {
         justify-self: start;
         width: 70%;
-        margin: 10px 0 10px 65px;
+        margin: 10px 0 10px 30px;
         align-self: center;
         grid-area: 1 / 1 / 1 / 2;
     }
@@ -258,13 +258,13 @@
         grid-area: 1 / 2 / 2 / 3;
         align-self: end;
         justify-self: start;
-        transform: translate(-45px, 0);
+        transform: translate(-60px, 0);
     }
 
     .introdução > p {
         width: 80%;
         font-size: 0.6em;
-        line-height: 14px;
+        line-height: 13px;
         margin-bottom: 15px;
         color: black;
     }
