@@ -118,6 +118,10 @@
         margin: 10px;
     }
 
+    div.skills > div.info > h3 {
+        font-size: 1.1em;
+    }
+
     /* rodapé */
     footer {
         background-color: rgb(132, 56, 255);
