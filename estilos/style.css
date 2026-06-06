@@ -184,7 +184,7 @@ section.aviso {
 }
 
 .aviso > p {
-    font-size: 15px;
+    font-size: 15.5px;
     margin: 15px;
     width: 92%;
 }
@@ -235,10 +235,10 @@ section.projetos > div > h3 {
 }
 
 .projetos > div > p, details > .content-inner > p {
-    font: 500 13.5px "Raleway", arial, helvetica, sans-serif;
+    font: 500 14px "Raleway", arial, helvetica, sans-serif;
     line-height: 19px;
     letter-spacing: 0.5px;
-    width: 320px;
+    width: 325px;
 }
 
 details.descrição {
@@ -265,7 +265,7 @@ aside {
 section#sobre, div.introdução {
     width: 100%;
     margin: auto;
-    padding: 9.5px;
+    padding: 9.8px;
 }
 
 section#sobre > img {
