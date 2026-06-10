@@ -33,13 +33,14 @@
     
     .aviso > p {
         font-size: 0.9em;
-        line-height: 23px;
+        line-height: 24px;
         letter-spacing: 0.5px;
+        width: 95%;
     }
 
     /* projetos */
     section.projetos {
-        width: 82%;
+        width: 85%;
         margin-bottom: 150px;
         padding: 50px;
     }
@@ -66,7 +67,7 @@
         font: normal 0.8em arial, helvetica, sans-serif;
         width: 400px;
         letter-spacing: 0.5px;
-        line-height: 17px;
+        line-height: 20px;
     }
 
     div.content-inner > p {
@@ -98,8 +99,8 @@
     }
 
     section#sobre > img {
-        width: 100%;
-        transform: translate(-90px, 0);
+        width: 102%;
+        transform: translate(-85px, 0);
     }
 
     /* skills */

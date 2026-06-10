@@ -192,7 +192,7 @@
     /* projetos */
 
     section.projetos {
-        width: 76%;
+        width: 83%;
         margin: auto auto 80px auto;        
         display: flex;
         flex-flow: row wrap;
@@ -213,7 +213,7 @@
     .projetos > div > p {
         font-size: 0.6em;
         letter-spacing: 0.3px;
-        width: 200px;
+        width: 220px;
         line-height: 15px;
     }
 
