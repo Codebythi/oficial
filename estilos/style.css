@@ -75,10 +75,10 @@ img.logo {
 img.icon {
     grid-area: 1 / 1 / 1 / 2;
     color: var(--color-text);
-    max-width: 30px;
+    max-width: 32px;
     order: 1;
     justify-self: start;
-    margin-left: 19px;
+    margin-left: 22px;
 }
 
 header > h1 {
@@ -87,7 +87,7 @@ header > h1 {
     text-align: center;
     justify-self: center;
     letter-spacing: 1.5px;
-    font: 550 2.6em 'Montserrat', arial, helvetica, sans-serif;
+    font: 550 2.5em 'Montserrat', arial, helvetica, sans-serif;
     text-shadow: 0.1px 0.1px 4px var(--color-shadow);
     line-height: 45px;
     transform: translate(0, -20px);
