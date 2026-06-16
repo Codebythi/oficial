@@ -86,7 +86,7 @@ header > h1 {
     color: var(--titulo-color);
     text-align: center;
     justify-self: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font: 550 2.6em 'Montserrat', arial, helvetica, sans-serif;
     text-shadow: 0.3px 0.3px 4px var(--color-shadow);
     line-height: 45px;
