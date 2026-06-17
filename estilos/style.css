@@ -40,7 +40,7 @@ body {
 
 /* cabeçario */
 header {
-    height: 720px;
+    height: 725px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -78,7 +78,7 @@ img.icon {
     max-width: 32px;
     order: 1;
     justify-self: start;
-    margin-left: 22px;
+    margin-left: 21px;
 }
 
 header > h1 {
