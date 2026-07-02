@@ -33,7 +33,7 @@ body {
     --color-shadow: rgba(161, 159, 159, 0.685);
     --color-text: rgb(172, 172, 172);
     --primary-color: rgb(107, 26, 201);
-    --background-black: rgb(15, 15, 15);
+    --background-black: rgb(16, 16, 16);
     --border-color: rgb(65, 11, 126);
     --titulo-color: rgb(233, 229, 229);
 }
@@ -128,7 +128,7 @@ menu {
     bottom: 0;
     background: white;
     width: 98%;
-    height: 1.8px;
+    height: 1.9px;
     transform: scaleX(0);
     transform-origin: left center;
     transition: transform 0.6s ease;
@@ -151,6 +151,7 @@ menu.fixo {
     opacity: 1;
     pointer-events: all;
     transform: translateY(0);
+
 }
 
 menu > img.logo2 {
